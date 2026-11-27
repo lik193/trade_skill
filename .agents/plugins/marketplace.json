@@ -1,0 +1,12 @@
+{
+  "name": "trading-research-local",
+  "interface": { "displayName": "Trading Research" },
+  "plugins": [
+    {
+      "name": "trading-lab",
+      "source": { "source": "local", "path": "./plugins/trading-lab" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

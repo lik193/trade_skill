@@ -1,0 +1,15 @@
+{
+  "name": "trading-lab",
+  "version": "0.1.0",
+  "description": "Test trading premises, build and refine systems, audit results, and challenge the economics of a strategy.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Trading Lab",
+    "shortDescription": "Design, build, and evaluate trading systems",
+    "defaultPrompt": [
+      "Test my trading premise with the evidence already in this project.",
+      "Build the proposed change and reconcile a trade through the simulator.",
+      "Find what is holding this strategy back and run the next useful experiment."
+    ]
+  }
+}
