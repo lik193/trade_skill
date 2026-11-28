@@ -1,19 +1,28 @@
 # Trading Lab
 
-A Codex plugin for testing trading ideas, building and refining trading systems, and checking whether results hold up after execution costs and portfolio constraints.
+A Codex and Claude Code plugin for testing trading ideas, building and refining trading systems, and checking whether results hold up after execution costs and portfolio constraints.
 
 ## Install
 
-From the root of this repository, run:
+Run the commands for your tool from the repository root.
+
+**Codex**
 
 ```sh
 codex plugin marketplace add .
 codex plugin add trading-lab@trading-research-local
 ```
 
+**Claude Code**
+
+```sh
+claude plugin marketplace add .
+claude plugin install trading-lab@trading-research-local
+```
+
 ## Use
 
-Describe the task in your trading project and Codex can select a matching skill. For open-ended or multi-stage work, invoke `$trading-lab:trading-orchestrate` to choose and carry out the next experiment.
+Describe the task in your trading project and the assistant can select a matching skill. For open-ended or multi-stage work, invoke `$trading-lab:trading-orchestrate` in Codex or `/trading-lab:trading-orchestrate` in Claude Code.
 
 | Skill | Example request |
 | --- | --- |

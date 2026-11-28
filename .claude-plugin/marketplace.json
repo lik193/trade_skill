@@ -1,0 +1,12 @@
+{
+  "name": "trading-research-local",
+  "owner": { "name": "keonili" },
+  "metadata": { "description": "Trading system research and development skills." },
+  "plugins": [
+    {
+      "name": "trading-lab",
+      "source": "./plugins/trading-lab",
+      "description": "Test trading premises, refine systems, and audit backtests."
+    }
+  ]
+}
